@@ -1,0 +1,17 @@
+package first;
+public class Calculate {
+     int a,b;
+     public Calculate(int x,int y) {
+    	 this.a=x;
+    	 this.b=y;
+     }
+     public int add() {
+    	 int res=a+b;
+    	 return res;
+     }
+     public static void main(String args[]) {
+    	 Calculate c=new Calculate(25,61);
+    	 System.out.println(c.add());
+     }
+     
+}
